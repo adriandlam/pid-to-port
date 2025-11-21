@@ -6,12 +6,13 @@
 	"types": "index.d.ts",
 	"type": "module",
 	"exports": {
-		".": {
-			"import": "./index.js",
-			"require": "./index.cjs",
-			"types": "./index.d.ts"
-		}
+		"types": "./index.d.ts",
+		"default": "./index.js"
 	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
 	"scripts": {},
 	"keywords": [
 		"pid",
