@@ -1,0 +1,41 @@
+{
+  "name": "pid-to-port",
+  "version": "0.1.0",
+  "description": "Find which port a process is using by its PID and vice versa",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {},
+  "keywords": [
+    "pid",
+    "port",
+    "process",
+    "network",
+    "netstat",
+    "lsof"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.21.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adriandlam/pid-to-port.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriandlam/pid-to-port/issues"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.6",
+    "lefthook": "^2.0.4"
+  }
+}
